@@ -2,7 +2,8 @@ theApp.EvtMax = 500
 
 import AthenaPoolCnvSvc.ReadAthenaPool
 from os.path import join
-svcMgr.EventSelector.InputCollections = [ join('..', 'data', 'dummy', 'mc16_13TeV.102000.EVNT.235547.pool.root') ]
+input_file = join('..', 'data', 'mc15_13TeV.310846.MGPy8EG_4toprestt_auto_m1500.evgen.EVNT.e7058', 'EVNT.16103489._000009.pool.root.1')
+svcMgr.EventSelector.InputCollections = [ input_file ]
 
 from AthenaCommon.AlgSequence import AlgSequence
 job = AlgSequence()
