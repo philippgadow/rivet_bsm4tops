@@ -7,5 +7,5 @@ source setupRivet.sh
 
 # build rivet routine
 cd rivet/
-rivet-build RivetTTTT.so TTTT.cc
+rivet-build RivetBSM4tops.so BSM4tops.cc
 cd -
